@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/niobium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.niobium"
+    },
+    "material": {
+        "displayName": "Niobium",
+        "durability": 890,
+        "armorDurability": 667.5,
+        "armor": 667.5,
+        "armorToughness": 44.5,
+        "enchantability": 0.89,
+        "harvestLevel": 8.9,
+        "harvestSpeed": 4.45,
+        "meleeDamage": 8.9,
+        "magicDamage": 2.9,
+        "magicArmor": 2.3,
+        "rangedDamage": 0.6,
+        "rangedSpeed": 4.45,
+        "rarity": 1.78,
+        "chargingValue": 801.0
+    }
+}

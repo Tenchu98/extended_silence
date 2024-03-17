@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/vanadium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.vanadium"
+    },
+    "material": {
+        "displayName": "Vanadium",
+        "durability": 700,
+        "armorDurability": 525.0,
+        "armor": 525.0,
+        "armorToughness": 35.0,
+        "enchantability": 0.7000000000000001,
+        "harvestLevel": 7.0,
+        "harvestSpeed": 3.5,
+        "meleeDamage": 7.0,
+        "magicDamage": 2.3,
+        "magicArmor": 1.8,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 3.5,
+        "rarity": 1.4000000000000001,
+        "chargingValue": 630.0
+    }
+}

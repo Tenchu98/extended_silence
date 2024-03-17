@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "extended_silence:block/dragonwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "extended_silence:block/dragonwood_log"
+    },
+    "axis=z": {
+      "model": "extended_silence:block/dragonwood_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "extended_silence:dragonscale"
+    }
+  },
+  "name": {
+    "translate": "Dragon Scale"
+  },
+  "stats": {
+    "main": {
+      "durability": 3100.0,
+      "armor_durability": 41.0,
+      "enchantment_value": 10.0,
+      "rarity": 10.0,
+      "charging_value": 0.8,
+      "repair_value": -0.5,
+      "harvest_level": 4.0,
+      "harvest_speed": 6.0,
+      "melee_damage": 15.0,
+      "magic_damage": 10.0,
+      "attack_speed": -0.4,
+      "ranged_damage": 2.0,
+      "ranged_speed": -0.4,
+      "projectile_speed": 0.7,
+      "projectile_accuracy": 0.7,
+      "armor": 40.0,
+      "armor/helmet": 6.0,
+      "armor/chestplate": 16.0,
+      "armor/leggings": 8.0,
+      "armor/boots": 9.0,
+      "armor_toughness": 10.0,
+      "magic_armor": 8.0
+    },
+    "rod": {
+      "harvest_speed": {
+        "mul2": -0.1
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:jagged",
+        "level": 3
+      },
+      {
+        "name": "silentgear:bastion",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:adamant",
+        "level": 2
+      },
+      {
+        "name": "silentgear:ancient",
+        "level": 3
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#000000"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#000000"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#6600cc"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#6600cc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/erbium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.erbium"
+    },
+    "material": {
+        "displayName": "Erbium",
+        "durability": 380.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 19.0,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 16.0,
+        "meleeDamage": 0.0,
+        "magicDamage": 1.2,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.0,
+        "rangedDamage": 0.2,
+        "rangedSpeed": 0.0,
+        "rarity": 23.5,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 0.8
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

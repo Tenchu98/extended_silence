@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "extended_silence:dragonwood_planks"
+    }
+  ],
+  "result": {
+    "item": "extended_silence:dragonwood_button",
+    "count": 1
+  }
+}

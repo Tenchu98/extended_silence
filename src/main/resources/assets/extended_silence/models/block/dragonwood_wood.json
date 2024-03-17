@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "extended_silence:block/dragonwood_log_side",
+    "particle": "extended_silence:block/dragonwood_log_side"
+  },
+  "render_type": "solid"
+}

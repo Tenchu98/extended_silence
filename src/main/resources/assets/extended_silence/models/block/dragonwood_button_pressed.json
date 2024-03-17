@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "extended_silence:block/dragonwood_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/terbium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.terbium"
+    },
+    "material": {
+        "displayName": "Terbium",
+        "durability": 990,
+        "armorDurability": 742.5,
+        "armor": 742.5,
+        "armorToughness": 49.5,
+        "enchantability": 0.99,
+        "harvestLevel": 9.9,
+        "harvestSpeed": 4.95,
+        "meleeDamage": 9.9,
+        "magicDamage": 3.2,
+        "magicArmor": 2.6,
+        "rangedDamage": 0.6,
+        "rangedSpeed": 4.95,
+        "rarity": 1.98,
+        "chargingValue": 891.0
+    }
+}

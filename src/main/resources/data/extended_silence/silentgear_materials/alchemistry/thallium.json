@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/thallium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.thallium"
+    },
+    "material": {
+        "displayName": "Thallium",
+        "durability": 700.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 35.0,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 32.0,
+        "meleeDamage": 0.0,
+        "magicDamage": 2.3,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.8,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 0.0,
+        "rarity": 39.5,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 1.4
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

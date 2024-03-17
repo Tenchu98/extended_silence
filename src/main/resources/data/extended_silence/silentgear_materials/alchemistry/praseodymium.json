@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/praseodymium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.praseodymium"
+    },
+    "material": {
+        "displayName": "Praseodymium",
+        "durability": 910,
+        "armorDurability": 682.5,
+        "armor": 682.5,
+        "armorToughness": 45.5,
+        "enchantability": 0.91,
+        "harvestLevel": 9.1,
+        "harvestSpeed": 4.55,
+        "meleeDamage": 9.1,
+        "magicDamage": 2.9,
+        "magicArmor": 2.3,
+        "rangedDamage": 0.6,
+        "rangedSpeed": 4.55,
+        "rarity": 1.82,
+        "chargingValue": 819.0
+    }
+}

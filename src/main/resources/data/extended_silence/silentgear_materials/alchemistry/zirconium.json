@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/zirconium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.zirconium"
+    },
+    "material": {
+        "displayName": "Zirconium",
+        "durability": 870,
+        "armorDurability": 652.5,
+        "armor": 652.5,
+        "armorToughness": 43.5,
+        "enchantability": 0.87,
+        "harvestLevel": 8.700000000000001,
+        "harvestSpeed": 4.3500000000000005,
+        "meleeDamage": 8.700000000000001,
+        "magicDamage": 2.8,
+        "magicArmor": 2.2,
+        "rangedDamage": 0.6,
+        "rangedSpeed": 4.3500000000000005,
+        "rarity": 1.74,
+        "chargingValue": 783.0
+    }
+}

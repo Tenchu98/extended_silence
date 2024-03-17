@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:black_quartz_block"
+    }
+  },
+  "result": {
+    "item": "extended_silence:black_quartz_slab",
+    "count": 6
+  }
+}

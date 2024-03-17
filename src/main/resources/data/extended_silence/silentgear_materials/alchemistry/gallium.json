@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/gallium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.gallium"
+    },
+    "material": {
+        "displayName": "Gallium",
+        "durability": 420.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 21.0,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 18.0,
+        "meleeDamage": 0.0,
+        "magicDamage": 1.4,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.1,
+        "rangedDamage": 0.3,
+        "rangedSpeed": 0.0,
+        "rarity": 25.5,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 0.8
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "silent_cauldron_recipe",
+  "input": {
+    "item": "minecraft:stone",
+    "count": 1
+  },
+  "output": "minecraft:lava",
+  "time": 200
+}

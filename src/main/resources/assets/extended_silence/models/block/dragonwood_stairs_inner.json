@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "extended_silence:block/dragonwood_planks",
+    "top": "extended_silence:block/dragonwood_planks",
+    "side": "extended_silence:block/dragonwood_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "extended_silence:block/red_nether_bricks",
+    "top": "extended_silence:block/red_nether_bricks",
+    "side": "extended_silence:block/red_nether_bricks"
+  },
+  "render_type": "solid"
+}

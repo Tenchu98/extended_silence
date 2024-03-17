@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "extended_silence:block/blockofblackquartz",
+    "top": "extended_silence:block/blockofblackquartz",
+    "side": "extended_silence:block/blockofblackquartz"
+  },
+  "render_type": "solid"
+}

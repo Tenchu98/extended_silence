@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/strontium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.strontium"
+    },
+    "material": {
+        "displayName": "Strontium",
+        "durability": 800,
+        "armorDurability": 600.0,
+        "armor": 600.0,
+        "armorToughness": 40.0,
+        "enchantability": 0.8,
+        "harvestLevel": 8.0,
+        "harvestSpeed": 4.0,
+        "meleeDamage": 8.0,
+        "magicDamage": 2.6,
+        "magicArmor": 2.1,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 4.0,
+        "rarity": 1.6,
+        "chargingValue": 720.0
+    }
+}

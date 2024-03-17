@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/scandium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.scandium"
+    },
+    "material": {
+        "displayName": "Scandium",
+        "durability": 770,
+        "armorDurability": 577.5,
+        "armor": 577.5,
+        "armorToughness": 38.5,
+        "enchantability": 0.77,
+        "harvestLevel": 7.7,
+        "harvestSpeed": 3.85,
+        "meleeDamage": 7.7,
+        "magicDamage": 2.5,
+        "magicArmor": 2.0,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 3.85,
+        "rarity": 1.54,
+        "chargingValue": 693.0
+    }
+}

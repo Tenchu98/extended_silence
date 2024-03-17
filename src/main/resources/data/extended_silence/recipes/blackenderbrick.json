@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:enderbrick"
+    }
+  },
+  "result": {
+    "item": "extended_silence:blackendstonebricks",
+    "count": 1
+  }
+}

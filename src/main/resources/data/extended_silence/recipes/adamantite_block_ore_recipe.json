@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extended_silence:adamantite_block"
+    }
+  ],
+  "result": {
+    "item": "extended_silence:adamantite_ingot",
+    "count": 9
+  }
+}

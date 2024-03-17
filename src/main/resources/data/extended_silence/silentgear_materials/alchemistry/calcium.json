@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/calcium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.calcium"
+    },
+    "material": {
+        "displayName": "Calcium",
+        "durability": 290.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 14.5,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 11.5,
+        "meleeDamage": 0.0,
+        "magicDamage": 0.9,
+        "attackSpeed": 0.0,
+        "magicArmor": 0.7,
+        "rangedDamage": 0.2,
+        "rangedSpeed": 0.0,
+        "rarity": 19.0,
+        "chargingValue": 0.6
+    },
+    "rod": {
+        "durability": {
+            "mul2": 0.6
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

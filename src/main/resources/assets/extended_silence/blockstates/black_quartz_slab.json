@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "extended_silence:block/black_quartz_slab"
+    },
+    "type=top": {
+      "model": "extended_silence:block/black_quartz_slab_top"
+    },
+    "type=double": {
+      "model": "extended_silence:block/black_quartz_slab_full"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extended_silence:block/dragon_essence_block",
+    "up": "extended_silence:block/dragon_essence_block",
+    "north": "extended_silence:block/dragon_essence_block",
+    "east": "extended_silence:block/dragon_essence_block",
+    "south": "extended_silence:block/dragon_essence_block",
+    "west": "extended_silence:block/dragon_essence_block",
+    "particle": "extended_silence:block/dragon_essence_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extended_silence:blockof_dragon_essence"
+    }
+  ],
+  "result": {
+    "item": "extended_silence:dragonessenceshard",
+    "count": 9
+  }
+}

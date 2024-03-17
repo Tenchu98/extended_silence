@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:dragonessenceshard"
+    }
+  },
+  "result": {
+    "item": "extended_silence:blockof_dragon_essence",
+    "count": 1
+  }
+}

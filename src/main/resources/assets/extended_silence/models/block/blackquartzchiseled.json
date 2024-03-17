@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extended_silence:block/black_quartz_chiseled",
+    "up": "extended_silence:block/black_quartz_chiseled",
+    "north": "extended_silence:block/black_quartz_chiseled",
+    "east": "extended_silence:block/black_quartz_chiseled",
+    "south": "extended_silence:block/black_quartz_chiseled",
+    "west": "extended_silence:block/black_quartz_chiseled",
+    "particle": "extended_silence:block/black_quartz_chiseled"
+  },
+  "render_type": "solid"
+}

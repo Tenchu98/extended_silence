@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deep_dark",
+  "features": "extended_silence:mythril_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "extended_silence:dragonscale"
+    },
+    {
+      "item": "extended_silence:dragonscale"
+    },
+    {
+      "item": "extended_silence:dragonscale"
+    },
+    {
+      "item": "extended_silence:dragonscale"
+    },
+    {
+      "item": "extended_silence:dragonscale"
+    },
+    {
+      "item": "extended_silence:dragonscale"
+    },
+    {
+      "item": "extended_silence:dragonscale"
+    },
+    {
+      "item": "extended_silence:dragonscale"
+    },
+    {
+      "item": "extended_silence:dragonscale"
+    }
+  ],
+  "result": {
+    "item": "extended_silence:blockofdragonscales",
+    "count": 1
+  }
+}

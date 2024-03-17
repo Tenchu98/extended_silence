@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/hafnium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.hafnium"
+    },
+    "material": {
+        "displayName": "Hafnium",
+        "durability": 430.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 21.5,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 18.5,
+        "meleeDamage": 0.0,
+        "magicDamage": 1.4,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.1,
+        "rangedDamage": 0.3,
+        "rangedSpeed": 0.0,
+        "rarity": 26.0,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 0.9
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

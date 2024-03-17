@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/cesium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.cesium"
+    },
+    "material": {
+        "displayName": "Cesium",
+        "durability": 310.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 15.5,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 12.5,
+        "meleeDamage": 0.0,
+        "magicDamage": 1.0,
+        "attackSpeed": 0.0,
+        "magicArmor": 0.8,
+        "rangedDamage": 0.2,
+        "rangedSpeed": 0.0,
+        "rarity": 20.0,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 0.6
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

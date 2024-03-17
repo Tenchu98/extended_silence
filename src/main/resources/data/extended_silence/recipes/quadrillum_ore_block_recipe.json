@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:quadrillum_ingot"
+    }
+  },
+  "result": {
+    "item": "extended_silence:quadrillum_block",
+    "count": 1
+  }
+}

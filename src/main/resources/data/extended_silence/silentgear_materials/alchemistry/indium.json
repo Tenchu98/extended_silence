@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/indium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.indium"
+    },
+    "material": {
+        "displayName": "Indium",
+        "durability": 450.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 22.5,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 19.5,
+        "meleeDamage": 0.0,
+        "magicDamage": 1.5,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.2,
+        "rangedDamage": 0.3,
+        "rangedSpeed": 0.0,
+        "rarity": 27.0,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 0.9
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

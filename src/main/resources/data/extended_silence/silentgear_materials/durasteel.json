@@ -1,0 +1,105 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": ["metal"],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "extended_silence:durasteel_ingot"
+    }
+  },
+  "name": {
+    "translate": "Durasteel"
+  },
+  "stats": {
+    "main": {
+      "durability": 3000.0,
+      "armor_durability": 60.0,
+      "repair_value": -0.3,
+      "enchantment_value": 50.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 22.0,
+      "melee_damage": 12.0,
+      "magic_damage": 5.0,
+      "attack_speed": 0.35,
+      "armor": 35.0,
+      "armor/helmet": 6.0,
+      "armor/chestplate": 14.0,
+      "armor/leggings": 9.0,
+      "armor/boots": 6.0,
+      "armor_toughness": 18.0,
+      "magic_armor": 7.0,
+      "ranged_damage": 5.0,
+      "ranged_speed": 0.25,
+      "rarity": 75.0,
+      "charging_value": 0.9
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.3
+      },
+      "rarity": 75.0
+    },
+    "tip": {
+      "durability": {
+        "add": 800.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 4
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 4
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 3
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:vulcan",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#050500"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#050500"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#050500"
+      }
+    ]
+  }
+}

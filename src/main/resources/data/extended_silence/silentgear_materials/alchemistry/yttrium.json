@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/yttrium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.yttrium"
+    },
+    "material": {
+        "displayName": "Yttrium",
+        "durability": 850,
+        "armorDurability": 637.5,
+        "armor": 637.5,
+        "armorToughness": 42.5,
+        "enchantability": 0.85,
+        "harvestLevel": 8.5,
+        "harvestSpeed": 4.25,
+        "meleeDamage": 8.5,
+        "magicDamage": 2.7,
+        "magicArmor": 2.2,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 4.25,
+        "rarity": 1.7,
+        "chargingValue": 765.0
+    }
+}

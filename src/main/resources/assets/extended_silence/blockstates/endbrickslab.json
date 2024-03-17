@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "extended_silence:block/endbrickslab"
+    },
+    "type=top": {
+      "model": "extended_silence:block/endbrickslab_top"
+    },
+    "type=double": {
+      "model": "extended_silence:block/endbrickslab_full"
+    }
+  }
+}

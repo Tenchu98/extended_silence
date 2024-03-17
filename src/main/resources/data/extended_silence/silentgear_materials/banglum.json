@@ -1,0 +1,99 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "extended_silence:banglum_ingot"
+    }
+  },
+  "name": {
+    "translate": "Banglum"
+  },
+  "stats": {
+    "coating": {
+      "durability": [
+        {
+          "mul2": 0.3
+        },
+        {
+          "add": 2.0
+        }
+      ],
+      "armor_durability": {
+        "mul2": 0.121212125
+      },
+      "harvest_speed": {
+        "mul2": 0.125
+      },
+      "harvest_level": {
+        "max": 4.0
+      },
+      "melee_damage": {
+        "mul2": 0.33333334
+      },
+      "magic_damage": {
+        "mul2": 0.33333334
+      },
+      "ranged_damage": {
+        "mul2": 0.33333334
+      },
+      "armor_toughness": {
+        "add": 4.0
+      },
+      "knockback_resistance": {
+        "add": 1.0
+      },
+      "enchantment_value": {
+        "add": 5.0
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "silentgear:widen",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "coating/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#633401"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_material",
+        "color": "#633401"
+      },
+      {
+        "texture": "silentgear:coating_jar"
+      }
+    ],
+    "coating/armor": [
+      {
+        "texture": "minecraft:netherite"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#633401"
+      }
+    ]
+  }
+}

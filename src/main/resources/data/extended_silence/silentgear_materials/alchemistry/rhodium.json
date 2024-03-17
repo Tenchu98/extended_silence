@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/rhodium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.rhodium"
+    },
+    "material": {
+        "displayName": "Rhodium",
+        "durability": 720,
+        "armorDurability": 540.0,
+        "armor": 540.0,
+        "armorToughness": 36.0,
+        "enchantability": 0.72,
+        "harvestLevel": 7.2,
+        "harvestSpeed": 3.6,
+        "meleeDamage": 7.2,
+        "magicDamage": 2.3,
+        "magicArmor": 1.9,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 3.6,
+        "rarity": 1.44,
+        "chargingValue": 648.0
+    }
+}

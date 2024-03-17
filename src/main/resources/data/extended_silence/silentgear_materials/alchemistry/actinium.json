@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/actinium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.actinium"
+    },
+    "material": {
+        "displayName": "Actinium",
+        "durability": 100.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 8.0,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 5.0,
+        "meleeDamage": 0.0,
+        "magicDamage": 0.3,
+        "attackSpeed": 0.0,
+        "magicArmor": 0.3,
+        "rangedDamage": 0.1,
+        "rangedSpeed": 0.0,
+        "rarity": 10.0,
+        "chargingValue": 0.5
+    },
+    "rod": {
+        "durability": {
+            "mul2": 0.2
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

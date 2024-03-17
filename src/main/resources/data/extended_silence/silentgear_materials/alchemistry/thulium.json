@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/thulium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.thulium"
+    },
+    "material": {
+        "displayName": "Thulium",
+        "durability": 970,
+        "armorDurability": 727.5,
+        "armor": 727.5,
+        "armorToughness": 48.5,
+        "enchantability": 0.97,
+        "harvestLevel": 9.700000000000001,
+        "harvestSpeed": 4.8500000000000005,
+        "meleeDamage": 9.700000000000001,
+        "magicDamage": 3.1,
+        "magicArmor": 2.5,
+        "rangedDamage": 0.6,
+        "rangedSpeed": 4.8500000000000005,
+        "rarity": 1.94,
+        "chargingValue": 873.0
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extended_silence:block/blockofblackquartz",
+    "up": "extended_silence:block/blockofblackquartz",
+    "north": "extended_silence:block/blockofblackquartz",
+    "east": "extended_silence:block/blockofblackquartz",
+    "south": "extended_silence:block/blockofblackquartz",
+    "west": "extended_silence:block/blockofblackquartz",
+    "particle": "extended_silence:block/blockofblackquartz"
+  },
+  "render_type": "solid"
+}

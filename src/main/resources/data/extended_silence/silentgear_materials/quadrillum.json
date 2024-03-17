@@ -1,0 +1,202 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 7,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "extended_silence:quadrillum_ingot"
+    }
+  },
+  "name": {
+    "text": "Quadrillum Ingot"
+  },
+  "stats": {
+    "main": {
+      "durability": 7500,
+      "armor_durability": 1000,
+      "repair_value": 1.0,
+      "enchantability": 105.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 28.0,
+      "melee_damage": 51.0,
+      "magic_damage": 51.0,
+      "reach_distance": 6.0,
+      "attack_speed": 48.2,
+      "armor": 1000.0,
+      "armor/helmet": 150.0,
+      "armor/chestplate": 400.0,
+      "armor/leggings": 300.0,
+      "armor/boots": 150.0,
+      "magic_armor": 400.0,
+      "ranged_damage": 40.0,
+      "ranged_speed": 1.3,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.0,
+      "rarity": 90.0,
+      "silentgems:chargeability": 1.4
+    },
+    "rod": {
+      "attack_speed": {
+        "add": 10.0
+      },
+      "harvest_speed": {
+        "add": 5.0
+      }
+    },
+    "tip": {
+      "harvest_speed": {
+        "add": 5.0
+      },
+      "melee_damage": {
+        "add": 10.0
+      }
+    },
+    "bowstring": {
+      "projectile_speed": {
+        "add": 1.0
+      }
+    }
+  },
+  "traits": {
+    "lining": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      },
+      {
+        "name": "silentgear:void_ward",
+        "level": 1
+      }
+    ],
+    "binding": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ],
+    "main": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ],
+    "coating": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#07b031"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#07b031"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#07b031"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

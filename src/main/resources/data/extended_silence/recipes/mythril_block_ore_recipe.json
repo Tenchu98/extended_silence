@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extended_silence:mythril_block"
+    }
+  ],
+  "result": {
+    "item": "extended_silence:mythril_ingot",
+    "count": 9
+  }
+}

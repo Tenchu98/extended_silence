@@ -1,0 +1,9 @@
+{
+  "type": "extended_silence:structure_feature",
+  "config": {
+    "structure": "extended_silence:dragonwood",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

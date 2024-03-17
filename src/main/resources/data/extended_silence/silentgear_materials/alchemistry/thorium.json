@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/thorium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.thorium"
+    },
+    "material": {
+        "displayName": "Thorium",
+        "durability": 710.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 35.5,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 32.5,
+        "meleeDamage": 0.0,
+        "magicDamage": 2.3,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.8,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 0.0,
+        "rarity": 40.0,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 1.4
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

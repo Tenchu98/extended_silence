@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_end",
+  "features": "extended_silence:hallowed_ore",
+  "step": "underground_ores"
+}

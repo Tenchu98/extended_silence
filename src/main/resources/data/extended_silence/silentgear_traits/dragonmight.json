@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:enchantment",
+  "max_level": 1,
+  "name": {
+    "translate": "Dragon Might"
+  },
+  "description": {
+    "translate": "Use the overflowing energy of enchantments to empower your weapon"
+  },
+  "enchantments": {
+    "melee_weapon": [
+      {
+        "enchantment": "extended_silence:magicbane",
+        "level": [
+          1
+        ]
+      }
+    ]
+      }
+  }

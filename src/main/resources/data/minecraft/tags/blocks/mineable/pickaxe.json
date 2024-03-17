@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "extended_silence:blockofdragonscales",
+    "extended_silence:imperialdiamondore",
+    "extended_silence:adamantite_ore",
+    "extended_silence:adamantite_block",
+    "extended_silence:aquarium_ore",
+    "extended_silence:aquarium_block",
+    "extended_silence:banglum_ore",
+    "extended_silence:banglum_block",
+    "extended_silence:carmot_ore",
+    "extended_silence:carmot_block",
+    "extended_silence:morkite_ore",
+    "extended_silence:morkite_block",
+    "extended_silence:durasteel_ore",
+    "extended_silence:durasteel_block",
+    "extended_silence:hallowed_ore",
+    "extended_silence:hallowed_block",
+    "extended_silence:mythril_ore",
+    "extended_silence:mythril_block",
+    "extended_silence:unobtainium_ore",
+    "extended_silence:unobtainium_block",
+    "extended_silence:quadrillum_ore",
+    "extended_silence:quadrillum_block"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extended_silence:block/nether_bricks",
+    "up": "extended_silence:block/nether_bricks",
+    "north": "extended_silence:block/nether_bricks",
+    "east": "extended_silence:block/nether_bricks",
+    "south": "extended_silence:block/nether_bricks",
+    "west": "extended_silence:block/nether_bricks",
+    "particle": "extended_silence:block/nether_bricks"
+  },
+  "render_type": "solid"
+}

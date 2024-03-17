@@ -1,0 +1,88 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "gem",
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "extended_silence:dragonessenceshard"
+    }
+  },
+  "name": {
+    "translate": "Dragon essence shard"
+  },
+  "name_prefix": {
+    "translate": "dragon essence"
+  },
+  "stats": {
+    "coating": {
+      "durability": {
+        "mul2": 0.15
+      },
+      "armor_durability": {
+        "mul2": 0.25
+      },
+      "armor_toughness": {
+        "add": 2.0
+      },
+      "knockback_resistance": {
+        "add": 0.50
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "extended_silence:dragonmight",
+        "level": 5,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.67
+          }
+        ]
+      },
+      {
+        "name": "extended_silence:dragonmight",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:not",
+            "value": {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.67
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "coating/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#A002BE"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_material",
+        "color": "#A002BE"
+      },
+      {
+        "texture": "silentgear:coating_jar"
+      }
+    ]
+  }
+}

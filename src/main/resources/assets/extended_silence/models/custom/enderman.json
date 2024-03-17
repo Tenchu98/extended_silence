@@ -1,0 +1,761 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "raigen:enderman_statue_stone",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:shulker"
+    },
+    "component_groups": {
+      "minecraft:despawn": {
+        "minecraft:type_family": {
+          "family": [
+            "despawncito"
+          ]
+        }
+      },
+      "minecraft:north": {
+        "minecraft:mark_variant": {
+          "value": 0
+        }
+      },
+      "minecraft:north_east": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "minecraft:east": {
+        "minecraft:mark_variant": {
+          "value": 2
+        }
+      },
+      "minecraft:south_east": {
+        "minecraft:mark_variant": {
+          "value": 3
+        }
+      },
+      "minecraft:south": {
+        "minecraft:mark_variant": {
+          "value": 4
+        }
+      },
+      "minecraft:south_west": {
+        "minecraft:mark_variant": {
+          "value": 5
+        }
+      },
+      "minecraft:west": {
+        "minecraft:mark_variant": {
+          "value": 6
+        }
+      },
+      "minecraft:north_west": {
+        "minecraft:mark_variant": {
+          "value": 7
+        }
+      }
+    },
+    "components": {
+      "minecraft:fire_immune": true,
+      "minecraft:type_family": {
+        "family": [
+          "inanimate"
+        ]
+      },
+      "minecraft:despawn": {
+        "filters": {
+          "all_of": [
+            {
+              "test": "is_family",
+              "subject": "self",
+              "value": "despawncito"
+            }
+          ]
+        }
+      },
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "other",
+                  "value": true
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "wooden_pickaxe"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "stone_pickaxe"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "iron_pickaxe"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "golden_pickaxe"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "diamond_pickaxe"
+                }
+              ]
+            },
+            "event": "minecraft:event_despawn"
+          },
+          "swing": true,
+          "play_sounds": "block.stonecutter.use",
+          "hurt_item": 1,
+          "spawn_items": {
+            "table": "loot_tables/mob_statues/stone/enderman.json"
+          },
+          "interact_text": "action.interact.remove"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "subject": "self",
+                  "value": 0
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:wood_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:stone_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:iron_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:gold_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:diamond_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:netherite_chisel"
+                }
+              ]
+            },
+            "event": "minecraft:event_north_east"
+          },
+          "swing": true,
+          "play_sounds": "block.grindstone.use",
+          "hurt_item": 1,
+          "interact_text": "action.interact.rotate"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "subject": "self",
+                  "value": 1
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:wood_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:stone_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:iron_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:gold_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:diamond_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:netherite_chisel"
+                }
+              ]
+            },
+            "event": "minecraft:event_east"
+          },
+          "swing": true,
+          "play_sounds": "block.grindstone.use",
+          "hurt_item": 1,
+          "interact_text": "action.interact.rotate"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "subject": "self",
+                  "value": 2
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:wood_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:stone_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:iron_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:gold_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:diamond_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:netherite_chisel"
+                }
+              ]
+            },
+            "event": "minecraft:event_south_east"
+          },
+          "swing": true,
+          "play_sounds": "block.grindstone.use",
+          "hurt_item": 1,
+          "interact_text": "action.interact.rotate"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "subject": "self",
+                  "value": 3
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:wood_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:stone_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:iron_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:gold_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:diamond_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:netherite_chisel"
+                }
+              ]
+            },
+            "event": "minecraft:event_south"
+          },
+          "swing": true,
+          "play_sounds": "block.grindstone.use",
+          "hurt_item": 1,
+          "interact_text": "action.interact.rotate"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "subject": "self",
+                  "value": 4
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:wood_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:stone_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:iron_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:gold_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:diamond_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:netherite_chisel"
+                }
+              ]
+            },
+            "event": "minecraft:event_south_west"
+          },
+          "swing": true,
+          "play_sounds": "block.grindstone.use",
+          "hurt_item": 1,
+          "interact_text": "action.interact.rotate"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "subject": "self",
+                  "value": 5
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:wood_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:stone_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:iron_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:gold_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:diamond_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:netherite_chisel"
+                }
+              ]
+            },
+            "event": "minecraft:event_west"
+          },
+          "swing": true,
+          "play_sounds": "block.grindstone.use",
+          "hurt_item": 1,
+          "interact_text": "action.interact.rotate"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "subject": "self",
+                  "value": 6
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:wood_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:stone_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:iron_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:gold_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:diamond_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:netherite_chisel"
+                }
+              ]
+            },
+            "event": "minecraft:event_north_west"
+          },
+          "swing": true,
+          "play_sounds": "block.grindstone.use",
+          "hurt_item": 1,
+          "interact_text": "action.interact.rotate"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "subject": "self",
+                  "value": 7
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:wood_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:stone_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:iron_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:gold_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:diamond_chisel"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "raigen:netherite_chisel"
+                }
+              ]
+            },
+            "event": "minecraft:event_north"
+          },
+          "swing": true,
+          "play_sounds": "block.grindstone.use",
+          "hurt_item": 1,
+          "interact_text": "action.interact.rotate"
+        }
+      ],
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:damage_sensor": [
+        {
+          "cause": "any",
+          "deals_damage": false
+        }
+      ],
+      "minecraft:loot": {
+        "table": "loot_tables/mob_statues/stone/enderman.json"
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:north"
+          ]
+        }
+      },
+      "minecraft:event_despawn": {
+        "add": {
+          "component_groups": [
+            "minecraft:despawn"
+          ]
+        }
+      },
+      "minecraft:event_north": {
+        "add": {
+          "component_groups": [
+            "minecraft:north"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:north_west"
+          ]
+        }
+      },
+      "minecraft:event_north_east": {
+        "add": {
+          "component_groups": [
+            "minecraft:north_east"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:north"
+          ]
+        }
+      },
+      "minecraft:event_east": {
+        "add": {
+          "component_groups": [
+            "minecraft:east"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:north_east"
+          ]
+        }
+      },
+      "minecraft:event_south_east": {
+        "add": {
+          "component_groups": [
+            "minecraft:south_east"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:east"
+          ]
+        }
+      },
+      "minecraft:event_south": {
+        "add": {
+          "component_groups": [
+            "minecraft:south"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:south_east"
+          ]
+        }
+      },
+      "minecraft:event_south_west": {
+        "add": {
+          "component_groups": [
+            "minecraft:south_west"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:south"
+          ]
+        }
+      },
+      "minecraft:event_west": {
+        "add": {
+          "component_groups": [
+            "minecraft:west"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:south_west"
+          ]
+        }
+      },
+      "minecraft:event_north_west": {
+        "add": {
+          "component_groups": [
+            "minecraft:north_west"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:west"
+          ]
+        }
+      }
+    }
+  }
+}

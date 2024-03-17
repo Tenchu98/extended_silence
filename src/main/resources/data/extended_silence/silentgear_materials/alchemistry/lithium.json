@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/lithium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.lithium"
+    },
+    "material": {
+        "displayName": "Lithium",
+        "durability": 750,
+        "armorDurability": 562.5,
+        "armor": 562.5,
+        "armorToughness": 37.5,
+        "enchantability": 0.75,
+        "harvestLevel": 7.5,
+        "harvestSpeed": 3.75,
+        "meleeDamage": 7.5,
+        "magicDamage": 2.4,
+        "magicArmor": 1.9,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 3.75,
+        "rarity": 1.5,
+        "chargingValue": 675.0
+    }
+}

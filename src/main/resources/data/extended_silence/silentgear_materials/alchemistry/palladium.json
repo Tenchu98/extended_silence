@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/palladium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.palladium"
+    },
+    "material": {
+        "displayName": "Palladium",
+        "durability": 580.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 29.0,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 26.0,
+        "meleeDamage": 0.0,
+        "magicDamage": 1.9,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.5,
+        "rangedDamage": 0.4,
+        "rangedSpeed": 0.0,
+        "rarity": 33.5,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 1.2
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

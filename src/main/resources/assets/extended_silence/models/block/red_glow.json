@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extended_silence:block/redglow",
+    "up": "extended_silence:block/redglow",
+    "north": "extended_silence:block/redglow",
+    "east": "extended_silence:block/redglow",
+    "south": "extended_silence:block/redglow",
+    "west": "extended_silence:block/redglow",
+    "particle": "extended_silence:block/redglow"
+  },
+  "render_type": "solid"
+}

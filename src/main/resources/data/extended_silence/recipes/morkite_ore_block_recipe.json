@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:morkite"
+    }
+  },
+  "result": {
+    "item": "extended_silence:morkite_block",
+    "count": 1
+  }
+}

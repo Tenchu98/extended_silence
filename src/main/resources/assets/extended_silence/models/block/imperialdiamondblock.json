@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "extended_silence:block/imperialdiamondblock",
+    "particle": "extended_silence:block/imperialdiamondblock"
+  },
+  "render_type": "solid"
+}

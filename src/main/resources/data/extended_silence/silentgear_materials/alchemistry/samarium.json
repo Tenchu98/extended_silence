@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/samarium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.samarium"
+    },
+    "material": {
+        "displayName": "Samarium",
+        "durability": 930,
+        "armorDurability": 697.5,
+        "armor": 697.5,
+        "armorToughness": 46.5,
+        "enchantability": 0.93,
+        "harvestLevel": 9.3,
+        "harvestSpeed": 4.65,
+        "meleeDamage": 9.3,
+        "magicDamage": 3.0,
+        "magicArmor": 2.4,
+        "rangedDamage": 0.6,
+        "rangedSpeed": 4.65,
+        "rarity": 1.86,
+        "chargingValue": 837.0
+    }
+}

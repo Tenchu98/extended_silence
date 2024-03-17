@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/magnesium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.magnesium"
+    },
+    "material": {
+        "displayName": "Magnesium",
+        "durability": 520.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 26.0,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 23.0,
+        "meleeDamage": 0.0,
+        "magicDamage": 1.7,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.3,
+        "rangedDamage": 0.3,
+        "rangedSpeed": 0.0,
+        "rarity": 30.5,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 1.0
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

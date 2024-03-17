@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:black_quartz_slab"
+    }
+  },
+  "result": {
+    "item": "extended_silence:blackquartzchiseled",
+    "count": 1
+  }
+}

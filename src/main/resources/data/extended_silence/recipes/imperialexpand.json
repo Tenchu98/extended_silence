@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:imperialdiamondblock"
+    }
+  },
+  "result": {
+    "item": "extended_silence:imperialdiamond",
+    "count": 9
+  }
+}

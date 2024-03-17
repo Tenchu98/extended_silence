@@ -1,0 +1,187 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "name": {
+    "translate": "Nether Star"
+  },
+  "stats": {
+    "main": {
+      "durability": 2048.0,
+      "armor_durability": 40.0,
+      "enchantability": 20.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 20.0,
+      "melee_damage": 8.0,
+      "magic_damage": 8.0,
+      "attack_speed": 0.4,
+      "armor": 32.0,
+      "armor/helmet": 6.0,
+      "armor/chestplate": 10.0,
+      "armor/leggings": 8.0,
+      "armor/boots": 4.0,
+      "magic_armor": 8.0,
+      "ranged_damage": 4.0,
+      "ranged_speed": 0.4,
+      "projectile_speed": 4.0,
+      "projectile_accuracy": 4.0,
+      "rarity": 60.0,
+      "chargeability": 1.6
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.2
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "melee_damage": {
+        "mul2": 0.1
+      },
+      "rarity": 30.0
+    },
+    "tip": {
+      "durability": {
+        "add": 64.0
+      },
+      "armor_durability": {
+        "add": 64.0
+      },
+      "harvest_level": {
+        "max": 2.0
+      },
+      "harvest_speed": {
+        "add": 2.0
+      },
+      "melee_damage": {
+        "add": 4.0
+      },
+      "ranged_damage": {
+        "add": 1.5
+      },
+      "rarity": {
+        "add": 20.0
+      }
+    },
+    "adornment": {}
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:adamant",
+        "level": 3
+      },
+      {
+        "name": "silentgear:stellar",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 2
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:stellar",
+        "level": 1
+      },
+      {
+        "name": "silentgear:ancient",
+        "level": 3
+      }
+    ],
+    "adornment": [
+      {
+        "name": "silentgear:ancient",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#E6FFFF"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#E6FFFF"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#E6FFFF"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#E6FFFF"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#E6FFFF"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#E6FFFF"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "adornment/all": [
+      {
+        "texture": "silentgear:adornment_generic",
+        "color": "#E6FFFF"
+      },
+      {
+        "texture": "silentgear:adornment_highlight",
+        "color": "#E6FFFF"
+      }
+    ],
+    "adornment/part": [
+      {
+        "texture": "silentgear:adornment",
+        "color": "#E6FFFF"
+      },
+      {
+        "texture": "silentgear:adornment_highlight"
+      }
+    ]
+  }
+}

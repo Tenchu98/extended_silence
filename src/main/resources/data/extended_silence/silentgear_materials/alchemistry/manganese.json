@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/manganese"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.manganese"
+    },
+    "material": {
+        "displayName": "Manganese",
+        "durability": 530.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 26.5,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 23.5,
+        "meleeDamage": 0.0,
+        "magicDamage": 1.7,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.4,
+        "rangedDamage": 0.3,
+        "rangedSpeed": 0.0,
+        "rarity": 31.0,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 1.1
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

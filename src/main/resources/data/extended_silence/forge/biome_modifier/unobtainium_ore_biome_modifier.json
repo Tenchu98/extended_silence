@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "extended_silence:unobtainium_ore",
+  "step": "underground_ores"
+}

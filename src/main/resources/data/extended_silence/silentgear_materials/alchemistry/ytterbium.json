@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/ytterbium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.ytterbium"
+    },
+    "material": {
+        "displayName": "Ytterbium",
+        "durability": 950,
+        "armorDurability": 712.5,
+        "armor": 712.5,
+        "armorToughness": 47.5,
+        "enchantability": 0.9500000000000001,
+        "harvestLevel": 9.5,
+        "harvestSpeed": 4.75,
+        "meleeDamage": 9.5,
+        "magicDamage": 3.1,
+        "magicArmor": 2.5,
+        "rangedDamage": 0.6,
+        "rangedSpeed": 4.75,
+        "rarity": 1.9000000000000001,
+        "chargingValue": 855.0
+    }
+}

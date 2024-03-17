@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "extended_silence:block/metall005-new",
+    "particle": "extended_silence:block/metall005-new"
+  },
+  "render_type": "solid"
+}

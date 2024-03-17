@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/beryllium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.beryllium"
+    },
+    "material": {
+        "displayName": "Beryllium",
+        "durability": 230.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 11.5,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 8.5,
+        "meleeDamage": 0.0,
+        "magicDamage": 0.7,
+        "attackSpeed": 0.0,
+        "magicArmor": 0.6,
+        "rangedDamage": 0.1,
+        "rangedSpeed": 0.0,
+        "rarity": 16.0,
+        "chargingValue": 0.7
+    },
+    "rod": {
+        "durability": {
+            "mul2": 0.5
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

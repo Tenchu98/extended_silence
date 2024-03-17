@@ -1,0 +1,93 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "organic",
+      "wood"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+        "item": "extended_silence:dragonwood_planks"
+    }
+  },
+  "name": {
+    "translate": "Dragonwood"
+  },
+  "stats": {
+    "main": {
+      "durability": 120.0,
+      "armor_durability": 16.0,
+      "enchantment_value": 30.0,
+      "rarity": 2.0,
+      "charging_value": 1.2,
+      "repair_value": 0.5,
+      "harvest_level": 3,
+      "harvest_speed": 4.0,
+      "melee_damage": 3.0,
+      "attack_speed": 3.0,
+      "attack_speed/axe": 0.2,
+      "attack_speed/hoe": 2.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 1.0,
+      "projectile_speed": 2.0,
+      "projectile_accuracy": 1.8,
+      "armor": 14.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 6.0,
+      "armor/leggings": 4.0,
+      "armor/boots": 2.0,
+      "magic_armor": 4.0
+    },
+    "rod": {}
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:flammable",
+        "level": 1
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#896727"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:wood",
+        "color": "#896727"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#896727"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#896727"
+      }
+    ]
+  }
+}

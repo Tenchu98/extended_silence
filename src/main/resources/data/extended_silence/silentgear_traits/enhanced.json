@@ -1,0 +1,34 @@
+{
+    "type": "silentgear:enchantment",
+    "max_level": 1,
+    "name": {
+      "text": "Augmented"
+    },
+    "description": {
+      "text": "Grants sharpness to weapons, or silk touch and efficiency to tools."
+    },
+    "enchantments": {
+      "harvest_tool": [
+        {
+          "enchantment": "minecraft:silk_touch",
+          "level": [
+            1
+          ]
+        },
+        {
+            "enchantment": "minecraft:efficiency",
+            "level": [
+              1
+            ]
+        }
+      ],
+      "weapon": [
+        {
+          "enchantment": "minecraft:sharpness",
+          "level": [
+            1
+          ]
+        }
+      ]
+    }
+  }

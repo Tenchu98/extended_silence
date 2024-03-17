@@ -1,0 +1,47 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/rubidium"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.rubidium"
+    },
+    "material": {
+        "displayName": "Rubidium",
+        "durability": 640.0,
+        "armorDurability": 0.0,
+        "armor": 0.0,
+        "armorToughness": 0.0,
+        "enchantability": 32.0,
+        "harvestLevel": 2.0,
+        "harvestSpeed": 29.0,
+        "meleeDamage": 0.0,
+        "magicDamage": 2.1,
+        "attackSpeed": 0.0,
+        "magicArmor": 1.7,
+        "rangedDamage": 0.4,
+        "rangedSpeed": 0.0,
+        "rarity": 36.5,
+        "chargingValue": 0.9
+    },
+    "rod": {
+        "durability": {
+            "mul2": 1.3
+        },
+        "rangedDamage": {
+            "mul2": null
+        }
+    }
+}

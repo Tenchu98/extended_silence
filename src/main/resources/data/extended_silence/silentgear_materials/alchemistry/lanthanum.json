@@ -1,0 +1,38 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 2,
+        "categories": [
+            "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:ingots/lanthanum"
+        }
+    },
+    "name": {
+        "translate": "material.silentgear.lanthanum"
+    },
+    "material": {
+        "displayName": "Lanthanum",
+        "durability": 820,
+        "armorDurability": 615.0,
+        "armor": 615.0,
+        "armorToughness": 41.0,
+        "enchantability": 0.8200000000000001,
+        "harvestLevel": 8.2,
+        "harvestSpeed": 4.1,
+        "meleeDamage": 8.2,
+        "magicDamage": 2.6,
+        "magicArmor": 2.1,
+        "rangedDamage": 0.5,
+        "rangedSpeed": 4.1,
+        "rarity": 1.6400000000000001,
+        "chargingValue": 738.0
+    }
+}
