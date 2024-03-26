@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "extended_silence:block/unobtainium_block",
-    "particle": "extended_silence:block/unobtainium_block"
+    "all": "extended_silence:block/block_of_unobtainium",
+    "particle": "extended_silence:block/block_of_unobtainium"
   },
   "render_type": "solid"
 }

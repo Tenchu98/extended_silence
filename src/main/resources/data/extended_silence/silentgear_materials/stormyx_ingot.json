@@ -1,0 +1,173 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "extended_silence:stormyx_ingot"
+    }
+  },
+  "name": {
+    "translate": "Star Metal"
+  },
+  "stats": {
+    "main": {
+      "durability": 6100.0,
+      "armor_durability": 151.0,
+      "enchantment_value": 30.0,
+      "rarity": 100.0,
+      "charging_value": 3.1,
+      "harvest_level": 5.0,
+      "harvest_speed": 37.0,
+      "melee_damage": 45.0,
+      "magic_damage": 30.0,
+      "attack_speed": 3.0,
+      "ranged_damage": 28.0,
+      "ranged_speed": 1.0,
+      "projectile_speed": 2.1,
+      "projectile_accuracy": 2.1,
+      "armor": 150.0,
+      "armor/helmet": 25.0,
+      "armor/chestplate": 30.0,
+      "armor/leggings": 24.0,
+      "armor/boots": 35.0,
+      "armor_toughness": 33.0,
+      "magic_armor": 25.0
+    },
+    "rod": {
+      "harvest_speed": {
+        "add": -2.0
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 2000.0
+      },
+      "harvest_level": {
+        "max": 5.0
+      },
+      "rarity": {
+        "add": 30.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:mighty",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },{
+        "name": "silentgear:bastion",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:void_ward",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:or",
+            "values": [
+              {
+                "type": "silentgear:material_count",
+                "count": 3
+              },
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:sturdy",
+        "level": 4,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "extended_silence:enhanced",
+        "level": 3
+      },
+      {
+        "name": "silentgear:indestructible",
+        "level": 3
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#BB63D2"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#BB63D2"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#BB63D2"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#BB63D2"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#BB63D2"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#BB63D2"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

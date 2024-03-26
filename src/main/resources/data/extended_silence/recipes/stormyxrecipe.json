@@ -1,0 +1,12 @@
+{
+  "type": "extended_silence:imbuer",
+  "ingredients": [
+    {
+      "item": "extended_silence:starmetalingot"
+    }
+  ],
+  "output": {
+    "item": "extended_silence:stormyx_ingot",
+    "count": 1
+  }
+}

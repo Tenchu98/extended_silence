@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extended_silence:block/imbuer_side",
+    "up": "extended_silence:block/imbuer_top",
+    "north": "extended_silence:block/imbuer_active",
+    "east": "extended_silence:block/imbuer_side",
+    "south": "extended_silence:block/imbuer_side",
+    "west": "extended_silence:block/imbuer_side",
+    "particle": "extended_silence:block/imbuer_side"
+  },
+  "render_type": "solid"
+}

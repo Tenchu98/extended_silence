@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "extended_silence:item/dragon_essence_bucket"
+  }
+}

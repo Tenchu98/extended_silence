@@ -1,0 +1,12 @@
+{
+  "type": "extended_silence:imbuer",
+  "ingredients": [
+    {
+      "item": "extended_silence:endermitedust"
+    }
+  ],
+  "output": {
+    "item": "extended_silence:mystic_dust",
+    "count": 1
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "extended_silence:celestialingot"
+    }
+  },
+  "name": {
+    "text": "Celestial Ingot"
+  },
+  "stats": {
+    "main": {
+      "durability": 4000,
+      "armor_durability": 400,
+      "repair_value": 1,
+      "enchantability": 350,
+      "harvest_level": 8,
+      "harvest_speed": 32,
+      "melee_damage": 191,
+      "magic_damage": 48,
+      "reach_distance": 12,
+      "attack_speed": 36,
+      "armor": 4000,
+      "armor/helmet": 800,
+      "armor/chestplate": 1200,
+      "armor/leggings": 1200,
+      "armor/boots": 800,
+      "magic_armor": 400,
+      "ranged_damage": 70,
+      "ranged_speed": 2,
+      "projectile_speed": 2,
+      "projectile_accuracy": 2,
+      "rarity": 198,
+      "silentgems:chargeability": 2
+    },
+    "rod": {
+      "attack_speed": {
+        "add": 10
+      },
+      "harvest_speed": {
+        "add": 20
+      }
+    },
+    "tip": {
+      "harvest_speed": {
+        "add": 10
+      },
+      "melee_damage": {
+        "add": 3
+      }
+    },
+    "binding": {
+       "melee_damage": {
+        "add": 3
+      }
+    }
+  },
+  "traits": {
+    "lining": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      },
+      {
+        "name": "silentgear:void_ward",
+        "level": 1
+      }
+    ],
+    "binding": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ],
+    "main": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ],
+    "coating": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "silentgear:organic",
+        "level": 5
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#B76E79"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#B76E79"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#B76E79"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

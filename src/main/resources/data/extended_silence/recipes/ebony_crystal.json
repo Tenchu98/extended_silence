@@ -1,0 +1,12 @@
+{
+  "type": "extended_silence:imbuer",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "output": {
+    "item": "extended_silence:ebonycrystal",
+    "count": 1
+  }
+}

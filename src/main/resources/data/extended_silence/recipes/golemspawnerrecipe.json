@@ -1,0 +1,12 @@
+{
+  "type": "extended_silence:imbuer",
+  "ingredients": [
+    {
+      "item": "minecraft:spawner"
+    }
+  ],
+  "output": {
+    "item": "extended_silence:golemspawner",
+    "count": 1
+  }
+}

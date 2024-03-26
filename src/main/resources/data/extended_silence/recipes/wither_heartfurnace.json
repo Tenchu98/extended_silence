@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extended_silence:wither_heart"
+    }
+  ],
+  "result": {
+    "item": "minecraft:nether_star",
+    "count": 2
+  }
+}

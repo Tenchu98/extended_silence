@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "extended_silence:block/dragonscale_block",
-    "particle": "extended_silence:block/dragonscale_block"
+    "all": "extended_silence:block/dragon_scales_block",
+    "particle": "extended_silence:block/dragon_scales_block"
   },
   "render_type": "solid"
 }

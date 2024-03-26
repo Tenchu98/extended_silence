@@ -1,7 +1,6 @@
 
 package net.tanehu.extendedsilence.fluid;
 
-import net.tanehu.extendedsilence.init.ExtendedSilenceModItems;
 import net.tanehu.extendedsilence.init.ExtendedSilenceModFluids;
 import net.tanehu.extendedsilence.init.ExtendedSilenceModFluidTypes;
 import net.tanehu.extendedsilence.init.ExtendedSilenceModBlocks;
@@ -12,13 +11,20 @@ import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.ParticleOptions;
 
 public abstract class DragonessenceFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> ExtendedSilenceModFluidTypes.DRAGONESSENCE_TYPE.get(), () -> ExtendedSilenceModFluids.DRAGONESSENCE.get(),
-			() -> ExtendedSilenceModFluids.FLOWING_DRAGONESSENCE.get()).explosionResistance(100f).bucket(() -> ExtendedSilenceModItems.DRAGONESSENCE_BUCKET.get()).block(() -> (LiquidBlock) ExtendedSilenceModBlocks.DRAGONESSENCE.get());
+			() -> ExtendedSilenceModFluids.FLOWING_DRAGONESSENCE.get()).explosionResistance(100f).block(() -> (LiquidBlock) ExtendedSilenceModBlocks.DRAGONESSENCE.get());
 
 	private DragonessenceFluid() {
 		super(PROPERTIES);
+	}
+
+	@Override
+	public ParticleOptions getDripParticle() {
+		return ParticleTypes.FALLING_WATER;
 	}
 
 	public static class Source extends DragonessenceFluid {

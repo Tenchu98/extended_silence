@@ -1,6 +1,7 @@
 
 package net.tanehu.extendedsilence.fluid.types;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.common.SoundActions;
 import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
@@ -14,7 +15,7 @@ import java.util.function.Consumer;
 public class DragonessenceFluidType extends FluidType {
 	public DragonessenceFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.007D).lightLevel(10).rarity(Rarity.EPIC).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
-				.sound(SoundActions.BUCKET_EMPTY, SoundEvents.BUCKET_EMPTY).sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
+				.sound(SoundActions.BUCKET_EMPTY, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.empty"))).sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
 	}
 
 	@Override

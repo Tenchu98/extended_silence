@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0",
+    "up": "extended_silence:block/end_grass_top",
+    "north": "extended_silence:block/black_grass_side",
+    "east": "extended_silence:block/black_grass_side",
+    "south": "extended_silence:block/black_grass_side",
+    "west": "extended_silence:block/black_grass_side",
+    "particle": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0"
+  },
+  "render_type": "solid"
+}

@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="extended_silence"
-version="3.2"
+version="3.4"
 displayName="Extended Silence"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
@@ -31,4 +31,10 @@ authors="Tanehu98"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.extended_silence]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

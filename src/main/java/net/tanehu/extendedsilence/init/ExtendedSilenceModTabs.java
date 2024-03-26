@@ -28,7 +28,6 @@ public class ExtendedSilenceModTabs {
 				tabData.accept(ExtendedSilenceModBlocks.BLOCKOFDRAGONSCALES.get().asItem());
 				tabData.accept(ExtendedSilenceModItems.DRAGONSCALE.get());
 				tabData.accept(ExtendedSilenceModItems.DRAGONESSENCESHARD.get());
-				tabData.accept(ExtendedSilenceModItems.DRAGONESSENCE_BUCKET.get());
 				tabData.accept(ExtendedSilenceModBlocks.IMPERIALDIAMONDORE.get().asItem());
 				tabData.accept(ExtendedSilenceModBlocks.ADAMANTITE_ORE.get().asItem());
 				tabData.accept(ExtendedSilenceModBlocks.ADAMANTITE_BLOCK.get().asItem());
@@ -94,10 +93,33 @@ public class ExtendedSilenceModTabs {
 				tabData.accept(ExtendedSilenceModItems.MYSTIC_DUST.get());
 				tabData.accept(ExtendedSilenceModItems.ENDERMITEDUST.get());
 				tabData.accept(ExtendedSilenceModBlocks.SILENT_CAULDRON.get().asItem());
+				tabData.accept(ExtendedSilenceModBlocks.DRAGONIMBUER.get().asItem());
+				tabData.accept(ExtendedSilenceModItems.RAWOSMIUM.get());
+				tabData.accept(ExtendedSilenceModBlocks.CORRUPTDIRT.get().asItem());
+				tabData.accept(ExtendedSilenceModBlocks.CORRUPTGRASSBLOCK.get().asItem());
+				tabData.accept(ExtendedSilenceModItems.BLACK_QUARTZ.get());
+				tabData.accept(ExtendedSilenceModBlocks.BLACK_QUARTZORE.get().asItem());
+				tabData.accept(ExtendedSilenceModItems.DRAGONCRYSTAL.get());
+				tabData.accept(ExtendedSilenceModItems.GREENCORE.get());
+				tabData.accept(ExtendedSilenceModItems.PURIFIEDDRAGONESSENCE.get());
+				tabData.accept(ExtendedSilenceModItems.POLAR_BEAR_HIDE.get());
+				tabData.accept(ExtendedSilenceModItems.DRAGONESSENCEBUCKET.get());
+				tabData.accept(ExtendedSilenceModItems.WITHER_HEART.get());
+				tabData.accept(ExtendedSilenceModItems.EBONYCRYSTAL.get());
+				tabData.accept(ExtendedSilenceModItems.CELESTIALINGOT.get());
+				tabData.accept(ExtendedSilenceModItems.INFUSEDSTAR.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(ExtendedSilenceModBlocks.OSMIUM_ORE.get().asItem());
+			tabData.accept(ExtendedSilenceModBlocks.OSMIUM_BLOCK.get().asItem());
+			tabData.accept(ExtendedSilenceModBlocks.STORMYX_BLOCK.get().asItem());
+			tabData.accept(ExtendedSilenceModBlocks.ORICHALCUM_ORE.get().asItem());
+			tabData.accept(ExtendedSilenceModBlocks.ORICHALCUM_BLOCK.get().asItem());
+		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(ExtendedSilenceModBlocks.DRAGONWOOD_FENCE_GATE.get().asItem());
@@ -106,6 +128,16 @@ public class ExtendedSilenceModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ExtendedSilenceModItems.ENDGOLEM_SPAWN_EGG.get());
+			tabData.accept(ExtendedSilenceModItems.VOID_WALKER_SPAWN_EGG.get());
+			tabData.accept(ExtendedSilenceModItems.MYTHRIL_GOLEM_SPAWN_EGG.get());
+			tabData.accept(ExtendedSilenceModItems.WITHERGOLEM_SPAWN_EGG.get());
+			tabData.accept(ExtendedSilenceModItems.DRAGON_GOLEM_SPAWN_EGG.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(ExtendedSilenceModItems.OSMIUM_INGOT.get());
+			tabData.accept(ExtendedSilenceModItems.STORMYX_INGOT.get());
+			tabData.accept(ExtendedSilenceModItems.ORICHALCUM_INGOT.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

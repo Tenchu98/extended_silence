@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "extended_silence:block/quadrillum",
-    "particle": "extended_silence:block/quadrillum"
+    "all": "extended_silence:block/quadrillium",
+    "particle": "extended_silence:block/quadrillium"
   },
   "render_type": "solid"
 }

@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "blockstate=0": {
       "model": "extended_silence:block/silent_cauldron"
+    },
+    "blockstate=1": {
+      "model": "extended_silence:block/silentcauldronstates_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "extended_silence:block/silentcauldronstates_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "extended_silence:block/silentcauldronstates_blockstate_2"
     }
   }
 }

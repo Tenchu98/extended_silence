@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "extended_silence:block/carmot",
-    "particle": "extended_silence:block/carmot"
+    "all": "extended_silence:block/carmot_block",
+    "particle": "extended_silence:block/carmot_block"
   },
   "render_type": "solid"
 }

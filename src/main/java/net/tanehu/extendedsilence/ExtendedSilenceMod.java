@@ -19,6 +19,7 @@ import org.apache.logging.log4j.LogManager;
 import net.tanehu.extendedsilence.world.features.StructureFeature;
 import net.tanehu.extendedsilence.init.ExtendedSilenceModTabs;
 import net.tanehu.extendedsilence.init.ExtendedSilenceModPotions;
+import net.tanehu.extendedsilence.init.ExtendedSilenceModMenus;
 import net.tanehu.extendedsilence.init.ExtendedSilenceModItems;
 import net.tanehu.extendedsilence.init.ExtendedSilenceModFluids;
 import net.tanehu.extendedsilence.init.ExtendedSilenceModFluidTypes;
@@ -69,6 +70,7 @@ public class ExtendedSilenceMod {
 
 		ExtendedSilenceModPotions.REGISTRY.register(bus);
 
+		ExtendedSilenceModMenus.REGISTRY.register(bus);
 		ExtendedSilenceModFluids.REGISTRY.register(bus);
 		ExtendedSilenceModFluidTypes.REGISTRY.register(bus);
 	}

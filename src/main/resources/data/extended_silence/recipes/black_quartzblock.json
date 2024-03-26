@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:black_quartz"
+    }
+  },
+  "result": {
+    "item": "extended_silence:black_quartz_block",
+    "count": 1
+  }
+}

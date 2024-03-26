@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "extended_silence:hallowed_ingot"
+    },
+    "b": {
+      "item": "extended_silence:purifieddragonessence"
+    },
+    "c": {
+      "item": "extended_silence:wither_heart"
+    }
+  },
+  "result": {
+    "item": "extended_silence:infusedstar",
+    "count": 1
+  }
+}

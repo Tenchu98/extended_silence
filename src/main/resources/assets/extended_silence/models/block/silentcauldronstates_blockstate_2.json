@@ -1,0 +1,12 @@
+{
+  "parent": "extended_silence:custom/silentcauldronessence",
+  "textures": {
+    "all": "extended_silence:block/crying_obsidian",
+    "particle": "extended_silence:block/crying_obsidian",
+    "0": "extended_silence:block/crying_obsidian",
+    "1": "extended_silence:block/midas_gold_block",
+    "2": "extended_silence:block/dragonessence",
+    "missing": "extended_silence:block/"
+  },
+  "render_type": "solid"
+}

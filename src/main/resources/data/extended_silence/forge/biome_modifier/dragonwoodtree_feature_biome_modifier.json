@@ -1,9 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "end_midlands",
-    "end_highlands"
-  ],
+  "biomes": "extended_silence:the_fallen_lands",
   "features": "extended_silence:dragonwoodtree_feature",
   "step": "surface_structures"
 }

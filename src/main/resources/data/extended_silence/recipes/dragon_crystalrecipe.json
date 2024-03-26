@@ -1,0 +1,12 @@
+{
+  "type": "extended_silence:imbuer",
+  "ingredients": [
+    {
+      "item": "extended_silence:dragonscale"
+    }
+  ],
+  "output": {
+    "item": "extended_silence:dragoncrystal",
+    "count": 1
+  }
+}

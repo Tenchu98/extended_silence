@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1.4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "extended_silence:rawosmium"
+  },
+  "result": "extended_silence:osmium_ingot"
+}

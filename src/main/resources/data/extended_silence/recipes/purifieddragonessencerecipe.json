@@ -1,0 +1,12 @@
+{
+  "type": "extended_silence:imbuer",
+  "ingredients": [
+    {
+      "item": "extended_silence:dragonessenceshard"
+    }
+  ],
+  "output": {
+    "item": "extended_silence:purifieddragonessence",
+    "count": 1
+  }
+}

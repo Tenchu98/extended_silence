@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0",
+    "up": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0",
+    "north": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0",
+    "east": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0",
+    "south": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0",
+    "west": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0",
+    "particle": "extended_silence:block/butaqmzooeo4tlo2efprn0pfwwleuhm5bnzuzeozz05jrnfxblnqmk1hnd0"
+  },
+  "render_type": "solid"
+}

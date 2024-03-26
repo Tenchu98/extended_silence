@@ -3,6 +3,7 @@ package net.tanehu.extendedsilence.block;
 
 import org.checkerframework.checker.units.qual.s;
 
+import net.tanehu.extendedsilence.procedures.SilentCauldronUpdateTickProcedure;
 import net.tanehu.extendedsilence.procedures.SilentCauldronOnBlockRightClickedProcedure;
 import net.tanehu.extendedsilence.block.entity.SilentCauldronBlockEntity;
 
@@ -13,6 +14,8 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -29,6 +32,8 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -37,8 +42,20 @@ import java.util.List;
 import java.util.Collections;
 
 public class SilentCauldronBlock extends Block implements EntityBlock {
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 3);
+
 	public SilentCauldronBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(5f, 10f).lightLevel(s -> 4).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(5f, 10f).lightLevel(s -> (new Object() {
+			public int getLightLevel() {
+				if (s.getValue(BLOCKSTATE) == 1)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 2)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 3)
+					return 15;
+				return 4;
+			}
+		}.getLightLevel())).noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -63,7 +80,27 @@ public class SilentCauldronBlock extends Block implements EntityBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		if (state.getValue(BLOCKSTATE) == 1) {
+			return Shapes.or(box(0, 0, 14, 2, 2, 16), box(14, 0, 14, 16, 2, 16), box(14, 0, 0, 16, 2, 2), box(0, 0, 0, 2, 2, 2), box(0, 2, 0, 16, 4, 16), box(0, 4, 1, 1, 15, 15), box(15, 4, 1, 16, 15, 15), box(1, 4, 0, 15, 15, 1),
+					box(1, 4, 15, 15, 15, 16), box(0, 15, 0, 15, 16, 1), box(0, 4, 0, 1, 15, 1), box(15, 15, 0, 16, 16, 15), box(15, 4, 15, 16, 15, 16), box(0, 15, 1, 1, 16, 16), box(0, 4, 15, 1, 15, 16), box(1, 15, 15, 16, 16, 16),
+					box(15, 4, 0, 16, 15, 1));
+		}
+		if (state.getValue(BLOCKSTATE) == 2) {
+			return Shapes.or(box(0, 0, 14, 2, 2, 16), box(14, 0, 14, 16, 2, 16), box(14, 0, 0, 16, 2, 2), box(0, 0, 0, 2, 2, 2), box(0, 2, 0, 16, 4, 16), box(0, 4, 1, 1, 15, 15), box(15, 4, 1, 16, 15, 15), box(1, 4, 0, 15, 15, 1),
+					box(1, 4, 15, 15, 15, 16), box(0, 15, 0, 15, 16, 1), box(0, 4, 0, 1, 15, 1), box(15, 15, 0, 16, 16, 15), box(15, 4, 15, 16, 15, 16), box(0, 15, 1, 1, 16, 16), box(0, 4, 15, 1, 15, 16), box(1, 15, 15, 16, 16, 16),
+					box(15, 4, 0, 16, 15, 1), box(1, 5, 1, 15, 15, 15));
+		}
+		if (state.getValue(BLOCKSTATE) == 3) {
+			return Shapes.or(box(0, 0, 14, 2, 2, 16), box(14, 0, 14, 16, 2, 16), box(14, 0, 0, 16, 2, 2), box(0, 0, 0, 2, 2, 2), box(0, 2, 0, 16, 4, 16), box(0, 4, 1, 1, 15, 15), box(15, 4, 1, 16, 15, 15), box(1, 4, 0, 15, 15, 1),
+					box(1, 4, 15, 15, 15, 16), box(0, 15, 0, 15, 16, 1), box(0, 4, 0, 1, 15, 1), box(15, 15, 0, 16, 16, 15), box(15, 4, 15, 16, 15, 16), box(0, 15, 1, 1, 16, 16), box(0, 4, 15, 1, 15, 16), box(1, 15, 15, 16, 16, 16),
+					box(15, 4, 0, 16, 15, 1), box(1, 5, 1, 15, 15, 15));
+		}
 		return Shapes.join(box(0, 0, 0, 16, 16, 16), box(1, 5, 1, 15, 16, 15), BooleanOp.ONLY_FIRST);
+	}
+
+	@Override
+	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+		builder.add(BLOCKSTATE);
 	}
 
 	@Override
@@ -72,6 +109,15 @@ public class SilentCauldronBlock extends Block implements EntityBlock {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		SilentCauldronUpdateTickProcedure.execute(world, x, y, z, blockstate);
 	}
 
 	@Override

@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "extended_silence:block/durasteel",
-    "particle": "extended_silence:block/durasteel"
+    "all": "extended_silence:block/durasteelblock",
+    "particle": "extended_silence:block/durasteelblock"
   },
   "render_type": "solid"
 }
